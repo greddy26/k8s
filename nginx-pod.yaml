@@ -12,7 +12,7 @@ spec:
         path: /
         port: 80 
       ports: 
-      containerport: 80
-      name: http
-      protocol: TCP
+        - containerport: 80
+          name: http
+          protocol: TCP
     
