@@ -8,12 +8,4 @@ spec:
     - name: myjenkins-container
       image: jenkins/jenkins:jdk11
 
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: myjenkins
-spec: 
-  container:
-    - name: myjenkins-container
-      image: alpine:3.13
+
