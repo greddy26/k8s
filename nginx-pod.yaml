@@ -1,14 +1,14 @@
 ---
-apiversion: v1
-kind: Pods
-metadata: 
-  name: nginx-pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-first-pod
 spec:
   containers:
     - name: nginx-container
       image: nginx:1.21.1
       ports:
-        - containerport: 80
+        - containerPort: 80
           protocol: TCP
           name: http
     
