@@ -9,13 +9,9 @@ spec:
     - name: alpine-container
       image: alpine 
       livenessProbe: 
-        httpget:
+        httpGet:
           path: /
           port: 80
-      Ports:
-        - containerport: 80
-          protocol: TCP
-          name: http 
       resources:
         requests:
           cpu: 200m
