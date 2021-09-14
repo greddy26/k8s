@@ -8,14 +8,5 @@ spec:
   containers:
     - name: alpine-container
       image: alpine 
-      livenessProbe: 
-        httpGet:
-          path: /
-          port: 80
-      resources:
-        requests:
-          cpu: 200m
-          memory: 256Mib
-        limits:
-          cpu: 500m
-          memory: 512Mib
+    
+     
