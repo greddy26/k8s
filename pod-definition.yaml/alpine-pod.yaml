@@ -8,5 +8,8 @@ spec:
   containers:
     - name: alpine-container
       image: alpine 
+      args: [sleep]
+      command: [1d]
+        
     
      
